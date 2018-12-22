@@ -1,5 +1,9 @@
 /* # = id and . = class */
 
+html {
+    border-style: solid;
+}
+
 #pageTitle {
     text-align: center;
     font-family: "Sanchez", sans-serif;
