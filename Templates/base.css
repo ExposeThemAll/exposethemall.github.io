@@ -60,7 +60,7 @@ h2,h3,h4,h5,h6 {
     font-size: 2vw;
 }
 
-p,li,ul,i,q{
+p,li,ul,i,q,pre{
     font-family: "Sarabun", serif;
     margin-left: 20px;
     font-size: 1.5vw;
