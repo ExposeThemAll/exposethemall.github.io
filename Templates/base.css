@@ -52,31 +52,36 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 html {
 
-    background-color: rgb(240, 230, 140);
+    background-color: #537d8d;
 
 }
 
+h1 {
+    color: #e8f1f2;
+}
 
 
 h2,h3,h4,h5,h6 {
     font-family: "Libre Franklin", sans-serif;
     margin-left: 20px;
     font-size: 2vw;
+    color: #e8f1f2;
 }
 
 p,li,ul,q,b{
     font-family: "Sarabun", serif;
     margin-left: 20px;
     font-size: 1.5vw;
+    color: #e8f1f2;
 }
 
 a {
-    color: rgba(63, 63, 63, 0.979) ;
+    color: #d7e2e4;
     font-family: "Sarabun", serif;
 }
 
 a:hover {
-    color: black;
+    color: #e8f1f2;
     text-decoration: none;
 }
 
