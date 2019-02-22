@@ -47,7 +47,7 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 #pageTitle {
     text-align: center;
     font-family: "Sanchez", sans-serif;
-    font-size: 3vw;
+    font-size: 30px;
 }
 
 html {
@@ -64,20 +64,21 @@ h1 {
 h2,h3,h4,h5,h6 {
     font-family: "Libre Franklin", sans-serif;
     margin-left: 20px;
-    font-size: 2vw;
+    font-size: 20px;
     color: #e8f1f2;
 }
 
 p,li,ul,q,b{
     font-family: "Sarabun", serif;
     margin-left: 20px;
-    font-size: 1.5vw;
+    font-size: 15px;
     color: #e8f1f2;
 }
 
 a {
     color: #d7e2e4;
     font-family: "Sarabun", serif;
+    font-size: 15px;
 }
 
 a:hover {
@@ -90,4 +91,22 @@ a:hover {
     height:2px;
     width: 95%;
     background-color: rgba(63, 63, 63, 0.979);
+}
+
+
+
+@media only screen and (min-width: 1000px){
+
+    #pageTitle {
+        font-size: 45px;
+    }
+
+    h2,h3,h4,h5,h6{
+        font-size: 32px;
+    }
+
+    p,li,ul,q,b {
+        font-size: 20px;
+    }
+
 }
