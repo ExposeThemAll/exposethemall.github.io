@@ -33,7 +33,8 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 		
 #top, #bottom {
 		left: 0; right: 0;
-		height: 5px;
+        height: 5px;
+        max-width: none;
 }
 
 #top { 
@@ -42,6 +43,12 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 #bottom { 
     bottom: 0; 
+}
+
+* {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #pageTitle {
@@ -91,6 +98,7 @@ a:hover {
     height:2px;
     width: 95%;
     background-color: rgba(63, 63, 63, 0.979);
+    max-width: none;
 }
 
 
